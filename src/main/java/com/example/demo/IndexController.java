@@ -17,13 +17,13 @@ import java.util.Map;
 public class IndexController {
 
 
-  @RequestMapping("/hello" )
-  @ResponseBody
-  public Map<String, Object> chartInfo() {
-    Map<String, Object> chartInfo = new HashMap<>();
-    chartInfo.put("name","李达康");
-    return chartInfo;
-  }
+	@RequestMapping("/hello" )
+	@ResponseBody
+	public Map<String, Object> chartInfo() {
+		Map<String, Object> chartInfo = new HashMap<>();
+		chartInfo.put("name","李达康");
+		return chartInfo;
+	}
 
 
 }
